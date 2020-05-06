@@ -33,7 +33,8 @@ namespace cscondition
                 case 1:
                     Console.WriteLine("홀수입니다!");
                     break;
-            }*/
+            }
+            */
             Console.WriteLine(input %2 == 0 ? "짝수입니다." : "홀수입니다.");
             Console.WriteLine(input > 0 ? "자연수입니다." : "자연수가 아닙니다.");
 
@@ -88,7 +89,15 @@ namespace cscondition
                     break;
             }
 
-            
+            Console.Write("입력 : ");
+            String line = Console.ReadLine();
+            if(line.Contains("안녕"))
+            {
+                Console.WriteLine("나도 안녕!");
+            } else
+            {
+                Console.WriteLine("-_-^ 버릇없다!");
+            }
         }
     }
 }
